@@ -18,6 +18,9 @@ div.blurb {
     border-style:solid;
     margin-top: 5px;
     padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 div.blurb h2 {
@@ -40,13 +43,6 @@ div.blurb h2 {
 }
 
 
-
-#body {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 #socials {
     list-style-type: none;
