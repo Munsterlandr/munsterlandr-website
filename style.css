@@ -38,12 +38,12 @@ div.blurb h2 {
 }
 
 #socials {
-    border-style:solid;
     list-style-type: none;
     padding-left:0%;
 }
 
 #socials li {
+    display: inline-block;
     border-style:inset;
     margin-top: 5px;
     margin-bottom: 5px;
