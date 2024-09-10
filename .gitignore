@@ -21,3 +21,6 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+# Keeps other projects out while letting me have their folders in here
+terra-arcana/*
