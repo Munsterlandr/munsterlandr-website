@@ -1,0 +1,3 @@
+[submodule "terra-arcana"]
+	path = terra-arcana
+	url = https://github.com/munsterlandr/terra-arcana
