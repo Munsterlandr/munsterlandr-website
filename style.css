@@ -92,4 +92,18 @@ div.blurb h2 {
     margin-right: 5px;
 }
 
-#uplink {}
+#siteLabel {
+    color:black;
+}
+
+#siteLabel:hover {
+    color:white;
+}
+
+#uplink {
+    color:black;
+}
+
+#uplink:hover {
+    color:white;
+}
