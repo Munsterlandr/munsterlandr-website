@@ -44,6 +44,16 @@ div.blurb h2 {
 
 
 
+.button-board {
+    display: flexbox;
+}
+
+.button-board a {
+    display:inline-block;
+}
+
+
+
 #socials {
     list-style-type: none;
     padding-left:0%;
