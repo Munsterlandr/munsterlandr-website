@@ -16,11 +16,16 @@ header {
 
 div.blurb {
     border-style:solid;
+    border-color:black;
     margin-top: 5px;
     padding: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+div.blurb:hover {
+    border-color:white;
 }
 
 div.blurb h2 {
@@ -45,10 +50,16 @@ div.blurb h2 {
 
 
 .button-board {
+    background-color: #68584c;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:1em;
+    margin:-5px;
     display: flexbox;
+    list-style-type: none;
 }
 
-.button-board a {
+.button-board li {
     display:inline-block;
 }
 
