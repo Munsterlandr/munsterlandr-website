@@ -14,6 +14,7 @@ header {
 }
 
 
+
 div.blurb {
     border-style:solid;
     border-color:black;
@@ -38,29 +39,41 @@ div.blurb h2 {
 
 
 
+.button-board {
+    background-color: #68584c;
+    list-style-type:none;
+    display:flex;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:0;
+    padding-bottom:0;
+    margin-left:-5px;
+    margin-right:-5px;
+    margin-top:0;
+    margin-bottom:0;
+    justify-content: center;
+}
+
+.button-board li {
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+
+
 .hidden {
     color:black;
     text-decoration: none;
+    padding:0;
+    margin:0;
 }
 
 .hidden:hover div {
     border-color:white;
-}
-
-
-
-.button-board {
-    background-color: #68584c;
-    padding-top:1em;
-    padding-bottom:1em;
-    padding-left:1em;
-    margin:-5px;
-    display: flexbox;
-    list-style-type: none;
-}
-
-.button-board li {
-    display:inline-block;
 }
 
 
