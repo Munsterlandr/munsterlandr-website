@@ -39,7 +39,7 @@ div.blurb h2 {
 
 
 
-.button-board {
+.button-board-88x31 {
     background-color: #68584c;
     list-style-type:none;
     display:flex;
@@ -54,13 +54,22 @@ div.blurb h2 {
     justify-content: center;
 }
 
-.button-board li {
+.button-board-88x31 li {
     margin-left:5px;
     margin-right:5px;
     margin-top:5px;
-    margin-bottom:0;
+    margin-bottom:5px;
     padding-top:0;
     padding-bottom:0;
+    width: 88px;
+    height: 31px;
+    background-color: #462c20;
+    align-content:center;
+    text-align: center;
+}
+
+.button-board-88x31 li a {
+    color:#c9b162;
 }
 
 
