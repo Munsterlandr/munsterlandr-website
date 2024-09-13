@@ -134,3 +134,7 @@ div.blurb p {
 #uplink:hover {
     color:white;
 }
+
+#webrings {
+    list-style-type: none;
+}
