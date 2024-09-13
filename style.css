@@ -105,6 +105,13 @@ div.blurb p {
 
 
 
+.adorned-header img {
+    float: right;
+    margin-right:5px;
+}
+
+
+
 #socials {
     list-style-type: none;
     padding-left:0%;
