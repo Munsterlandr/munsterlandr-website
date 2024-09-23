@@ -16,6 +16,7 @@ header {
 
 
 div.blurb {
+    /*display:flex; /**/
     border-style:solid;
     border-color:black;
     margin-top: 5px;
@@ -32,15 +33,14 @@ div.blurb h1 {
     margin-top: 0;
     margin-left:0;
     margin-right:0;
+    margin-bottom:0;
     padding-left:14px;
     background-color: #606060;
     font-size: 1.7em;
 }
 
 div.blurb h2 {
-    margin-top: 0;
-    margin-left:0;
-    margin-right:0;
+    margin:0;
     padding-left:14px;
     background-color: #606060;
     font-size:1.5em;
@@ -49,6 +49,13 @@ div.blurb h2 {
 div.blurb p {
     margin-left:5px;
     margin-right:5px;
+}
+
+
+
+/*For sections of introduction where we introduce ourselves. Info on us shall be presented kinda like files on us, with stuff we don't want shared redacted with █.*/
+div.id {
+    background-color: black;
 }
 
 
@@ -67,10 +74,10 @@ div.blurb p {
     margin-bottom:0;
     justify-content: center;
 }
-.blurb .button-board-88x31 {
+/*.blurb .button-board-88x31 {
     margin-left:-5px;
     margin-right:-5px;
-}
+} /**/
 
 .button-board-88x31 li {
     margin-left:5px;
@@ -144,4 +151,9 @@ div.blurb p {
 
 #webrings {
     list-style-type: none;
+}
+
+#form-graph {
+    float:right; /**/
+    width:30em;
 }
