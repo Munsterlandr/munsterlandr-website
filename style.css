@@ -153,11 +153,30 @@ div.id {
     color:white;
 }
 
+
+
 #webrings {
     list-style-type: none;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+#webrings li {
+    float: left;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+
 
 #form-graph {
     float:right; /**/
     width:30em;
+}
+
+#noodle-ring {
+    display:block;
+    border-style:groove;
+    overflow-x: visible;
 }
