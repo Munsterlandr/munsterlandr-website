@@ -1,3 +1,11 @@
+h3 {
+    margin:5px;
+}
+
+h4 {
+    margin:5px;
+}
+
 body {
     margin-left:0px;
     margin-right:0px;
@@ -179,4 +187,29 @@ div.id {
     display:block;
     border-style:groove;
     overflow-x: visible;
+}
+
+
+
+#form-blurb {
+    border-style: outset;
+    margin:5px;
+}
+
+#form-blurb ul {
+    list-style: none;
+    padding:0;
+}
+
+#form-blurb ul li {
+    border-style: inset;
+    margin:5px;
+}
+
+#form-blurb ul li h4 {
+    background-color: #606060;
+    margin:0;
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
